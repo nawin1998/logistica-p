@@ -1,0 +1,519 @@
+@media only screen and (min-width:200px) and (max-width:991px){
+    .navcontainer{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        border-top: 5px solid #ff3e41;
+    }
+    .navlinks ul{
+        display: none;
+    }
+    .logo{
+        position: relative;
+        height: 75px;
+        width: 55%;
+        background-color: #ff3e41;
+    }
+    .logo h1{
+        top: 20px;
+        left: 70px;
+    }
+    .checkbtn{
+        position: absolute;
+        display: block;
+        width: 12%;
+        top: 13px;
+        left: 19rem;
+        font-size: 35px;
+        border: 3px solid black;
+    }
+    .checkbtn i{
+        position: relative;
+        left: 1px;
+    }
+    .navlinks ul{
+        position: absolute;
+        background-color: #ffffff;
+        width: 20rem;
+        height: 35.5rem;
+        left: 0px;
+        top: 76px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .navlinks a{
+        position: relative;
+        top: 5px;
+        right: 7rem;
+        line-height: 2;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .navlinks p{
+        display: none;
+    }
+    .active a{
+        color: #ff3e41;
+    }
+    .navlinks a:hover{
+        border-top: none;
+    }
+    .navlinks li:hover .downer{
+        position: relative;
+        display: block;
+        height: 235px;
+        width: 240px;
+        top: 10px;
+        left: 10px;
+        color: black;
+        text-align: center;
+        border: 2px solid #808080;
+    }
+    .downer li a{
+        top: 0px;
+    }
+    .downer li{
+        position: relative;
+        top: 10px;
+        left: 40px;
+        margin-top: 0px;
+    }
+    #check:checked ~ ul{
+        display: inline-block;
+    }
+    /* home */
+    .Homecontainer{
+        height: 37.2rem;
+    }
+    .slidedata{
+        position: absolute;
+        height: 400px;
+        width: 60%;
+        top: 23%;
+        left: 5%;
+    }
+    .slidedata h5{
+        font-size: 20px;
+    }
+    .slidedata h1{
+        position: relative;
+        top: 20px;
+        font-size: 30px;
+    }
+    .slidedata p{
+        position: relative;
+        width: 100%;
+        top: 40px;
+    }
+    .slidedata .b2{
+        position: relative;
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+        top: 60px;
+    }
+    .slidedata .b3{
+        position: relative;
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+        top: 60px;
+    }
+    .slider .arrows-left{
+        left: 80%;
+        top: 38%;
+    }
+    .slider .arrows-right{
+        right: 11%;
+    }
+    /* about */
+    .aboutcontainer{
+        height: 60rem;
+    }
+    .aboutsection{
+        position: relative;
+        top: 10px;
+    }
+    .about-full{
+        display: block;
+    }
+    .abo-pics{
+        position: relative;
+        height: 20rem;
+        width: 90%;
+        left: 5%;
+        top: 1.5rem;
+    }
+    .abo-pics img{
+        height: 100%;
+        width: 100%;        
+    }
+    .abo-content{
+        position: relative;
+        height: 30rem;
+        width: 90%;
+        left: 5%;
+        top: 30px;
+    }
+    .abo-content h3{
+        position: relative;
+        top: 70px;
+        left: 27px;
+    }
+    .abo-content h1{
+        position: relative;
+        top: 75px;
+        font-size: 25px;
+    }
+    .abo-content p{
+        position: relative;
+        top: 90px;
+        width: 90%;
+        
+    }
+    .abou{
+        display: block;
+    }
+    .abou-1 i{
+        position: relative;
+        top: 25px;
+        font-size: 30px;
+    }
+    .abou-1 h2{
+        position: relative;
+        top: 35px;
+        font-size: 20px;
+    }
+    .abou-1 p{
+        position: relative;
+        top: 50px;
+        font-size: 15px;
+    }
+    .abou-2 i{
+        position: relative;
+        top: 70px;
+        font-size: 30px;
+    }
+    .abou-2 h2{
+        position: relative;
+        top: 80px;
+        font-size: 20px;
+    }
+    .abou-2 p{
+        position: relative;
+        top: 90px;
+        font-size: 15px;
+    }
+    .abo-content .b4{
+        position: relative;
+        height: 30px;
+        width: 100px;
+        font-size: 15px;
+        top: 155px;
+        left: 33px;
+    }
+    /* some facts */
+    .factcontainer{
+        height: 65rem;
+    }
+    .factsection{
+        display: block;
+    }
+    .facting{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        height: 24rem;
+    }
+    .facting h1{
+        position: relative;
+        bottom: 20px;
+        font-size: 25px;
+    }
+    .facter{
+        position: relative;
+        top: 35px;
+    }
+    .facting p{
+        position: relative;
+        top: 10px;
+    }
+    .factes h3{
+        width: 100%;
+    }
+    .facting2{
+        position: relative;
+        display: block;
+        width: 90%;
+        left: 5%;
+    }
+    .facted{
+        position: relative;
+        bottom: 80px;
+        
+    }
+    .facted1{
+        position: relative;
+        width: 90%;
+        left: 5%;
+    }
+    .facted2{
+        position: relative;
+        width: 90%;
+        left: 5%;
+    }
+    .facted3{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        top: 53px;
+        
+    }
+    /* services */
+    .servicecontainer{
+        height: 186rem;
+    }
+    .heading4 h1{
+        font-size: 25px;
+    }
+    .ser-card1{
+        display: block;
+    }
+    .ser-cardes{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        margin-top: 30px;
+    }
+    .ser-card2{
+        display: block;
+    }
+    .ser-cardes1{
+        position: relative;
+        width: 90%;
+        top: 57.5rem;
+        left: 5%;
+        margin-top: 30px;
+    }
+    .iconic{
+        position: relative;
+        top: 50px;
+    }
+    /* features */
+    .featurecontainer{
+        height: 68rem;
+    }
+    .featuresection{
+        display: block;
+    }
+    .featured1{
+        position: relative;
+        width: 90%;
+        left: 7%;
+    }
+    .featured1 h1{
+        font-size: 25px;
+    }
+    .feat2 h2{
+        font-size: 21px;
+    }
+    .feat2 p{
+        top: 5px;
+        font-size: 15px;
+    }
+    .feat4 h2{
+        font-size: 21px;
+    }
+    .feat4 p{
+        top: 5px;
+        font-size: 15px;
+    }
+    .feat6 h2{
+        font-size: 21px;
+    }
+    .feat6 p{
+        top: 5px;
+        font-size: 15px;
+    }
+    .featured2{
+        position: relative;
+        height: 20rem;
+        width: 90%;
+        left: 5%;
+        top: 90px;
+    }
+    .featured2 figure img{
+        height: 100%;
+        width: 100%;
+    }
+    /* plan */
+    .plancontainer{
+        height: 100rem;
+    }
+    .heading6{
+        position: relative;
+        top: 15px;
+    }
+    .heading6 h1{
+        font-size: 25px;
+    }
+    .planed{
+        display: block;
+    }
+    .planed1{
+        position: relative;
+        width: 95%;
+        right: 20px;
+        bottom: 50px;
+        margin-top: 30px;
+    }
+    /* quote */
+    .quotecontainer{
+        height: 70rem;
+    }
+    .quotesection{
+        display: block;
+    }
+    .quoting{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        top: 5px;
+    }
+    .quoting h1{
+        font-size: 25px;
+    }
+    .quoting1{
+        position: relative;
+        width: 90%;
+        height: 40rem;
+        left: 5%;
+        top: 10px;
+    }
+    .ros1{
+        display: block;
+    }
+    .ros2{
+        position: relative;
+        display: block;
+    }
+    .ros1 input{
+        position: relative;
+        width: 90%;
+        left: 0%;
+        margin-top: 30px;
+    }
+    .ros2 input{
+        position: relative;
+        width: 90%;
+        left: 0%;
+        bottom: 10px;
+    }
+    .input-group .form-select{
+        position: relative;
+        left: 18px;
+        width: 90%;
+        top: 18px;
+    }
+    .special{
+        position: relative;
+        width: 90%;
+        left: 17px;
+    }
+    
+    /* team */
+    .teamcontainer{
+        height: 115rem;
+    }
+    .heading7 h1{
+        font-size: 25px;
+    }
+    .teammates{
+        display: block;
+    }
+    .teames{
+        position: relative;
+        width: 90%;
+        right: 1.2%;
+        bottom: 90px;
+        margin-top: 30px;
+    }
+    /* testimonial */
+    .testicontainer{
+        height: 38rem;
+    }
+    .heading7 h1{
+        font-size: 25px;
+    }
+    /* footer */
+    .footcontainer{
+        height: 88rem;
+
+    }
+    .footed{
+        display: block;
+    }
+    .cont-1{
+        position: relative;
+        left: 10px;
+    }
+    .cont-2{
+        position: relative;
+        left: 10px;
+    }
+    .cont-3{
+        position: relative;
+        left: 10px;
+    }
+    .cont-4{
+        position: relative;
+        width: 90%;
+        height: 300px;
+        left: 10px;
+        top: 20px;
+        
+    }
+    .cont-4 h1{
+        left: 10px;
+    }
+    .cont-4 p{
+        position: relative;
+        width: 100%;
+        left: 10px;
+    }
+    .cont-4 .rown{
+        position: relative;
+        width: 97%;
+        left: 10px;
+       
+    }
+    .cont-4 .rown1{
+        left: 16rem;
+    }
+    .rown2{
+        position: relative;
+        top: 57rem;
+    }
+    .deck{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        top: 58rem;
+    }
+    .deck .uod1{
+        position: relative;
+        top: 10px;
+        left: 40px;
+        font-size: 20px;
+        color: #ffff;
+    }
+    .deck .uod2{
+        position: relative;
+        top: 30px;
+        margin-left: 25%;
+        font-size: 20px;
+        color: #ffff;
+    
+    }
+}
